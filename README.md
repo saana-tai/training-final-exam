@@ -4,7 +4,18 @@
 
 The goal is to offer well-documented and actively maintained core libraries for Software Robot Developers.
 
-This workshop gives you an introduction to the basics of RPA and how to use Robot Framework for that use case.
+## Final exam
+
+This final exam is a way for us to test that you have understood the concepts of Robocorp, and are able to build a robot on your own. The target of the final exam is to build Final exam robot in Python or Robot Framework syntax using Robocorp Lab or VSCode extension. The robot should be runnable locally via Lab (or VSCode) and also runnable from Robocorp Cloud using container. Feel free to ask for guidance from your team mates, or on Robocorp slack (channel #rpa-developer-training). However, please note that we go through all the final exam robots, so make sure you do not copy-paste a ready-built solution.
+
+### Expected results:
+1. Robot in Python or RFW format which completes final exam assignment
+2. Robot gets some run specific information from the [Vault](https://robocorp.com/docs/development-guide/variables-and-secrets/vault) (e.g. the email address)
+4. Robot can be run locally with Lab
+5. Robot can be run from Cloud using Robocontainer
+7. Email is sent to the above-mentioned address with expected title and attachment
+
+Send your final robot to email address training@robocorp.com.
 
 ## Prerequisites ☝️
 
@@ -312,8 +323,6 @@ Time to tackle the `Fill the form` keyword. This example keyword takes an argume
 
 ## Task 13: Preview the robot
 
-> Yo Dawg i herd you like cars so we put a car in yo car so you can drive while u drive. _- Xzibit, Pimp My Ride_
-
 To robotically get the image of the robot, the robot needs to preview the robot.
 
 ### Hints
@@ -437,7 +446,3 @@ Yes! You can debug your script in VS Code:
 - Run the robot using the debug button.
 
 ![Debugging the robot in Visual Studio Code](debug-in-vs-code.png)
-
-## Please answer our NPS survey to help us improve our stuff (and your life)!
-
-https://robocorp.typeform.com/to/noVJVZrI
