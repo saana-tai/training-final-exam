@@ -1,4 +1,4 @@
-# Workshop - RPA with Robot Framework and Robocorp
+# Training - RPA Developer
 
 [Robocorp](https://robocorp.com/) makes RPA accessible to everyone through license-free open source technologies, delivered from a cloud platform. Join us and learn to build and orchestrate software robots with Robocorp's developer tools and [RPA Framework's](https://rpaframework.org/) open-source libraries.
 
